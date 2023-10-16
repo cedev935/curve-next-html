@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="next-head-count" content="2" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assests/img/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assests/img/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assests/img/favicon-16x16.png" />
+  <link rel="manifest" href="assests/js/manifest.json" />
+  <link rel="mask-icon" href="assests/img/safari-pinned-tab.svg" color="#787878" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="theme-color" content="#ffffff" />
+  <link rel="preload" href="assests/css/main.css" as="style" />
+  <link rel="stylesheet" href="assests/css/main.css" data-n-g="" /><noscript data-n-css=""></noscript>
+  <link rel="stylesheet" href="assests/css/style.css">
+  <title>Swap - Curve</title>
+</head>
+
+<body class="scrollSmooth">
+  <div class="ehYRUu hasFooter">
+
+    <!-- navbar start-->
+
+    <nav class="fGImTb" aria-label="Secondary menu" id="nv">
+      <div class="iudnqD hZGAEY nav-content ">
+        <div class="jqojLo cXuSsJ">
+          <span class="emCXf">
+            Total Deposits:
+            <span class="jraZZk">$1,661,375,111</span>
+          </span>
+          <span class="emCXf">
+            Daily Volume:
+            <span class="jraZZk">$93,044,270</span>
+          </span>
+          <span class="emCXf">
+            Crypto Volume Share:
+            <span class="jraZZk">19.38%</span>
+          </span>
+        </div>
+        <div class="hhvprT lnVBze">
+          <a target="_blank" href="https://classic.curve.fi" class="ihGdWF kXgWy" rel="noreferrer noopener">
+            ClassicUI
+          </a>
+          <p class="brcYmT">|</p>
+          <a target="_blank" href="https://dao.curve.fi/" class="ihGdWF kXgWy" rel="noreferrer noopener">DAO</a>
+          <p class="brcYmT">|</p>
+          <a target="_blank" href="https://gov.curve.fi/" class="ihGdWF kXgWy" rel="noreferrer noopener">
+            Governance
+          </a>
+          <p class="brcYmT">|</p>
+          <button opacity="1" data-testid="btn-undefined" class="ggnzGg efQdAR gyvCEc ">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-label="Light theme">
+              <path
+                d="M6.995 12c0 2.761 2.246 5.007 5.007 5.007s5.007-2.246 5.007-5.007-2.246-5.007-5.007-5.007S6.995 9.239 6.995 12zM11 19h2v3h-2zm0-17h2v3h-2zm-9 9h3v2H2zm17 0h3v2h-3zM5.637 19.778l-1.414-1.414 2.121-2.121 1.414 1.414zM16.242 6.344l2.122-2.122 1.414 1.414-2.122 2.122zM6.344 7.759 4.223 5.637l1.415-1.414 2.12 2.122zm13.434 10.605-1.414 1.414-2.122-2.122 1.414-1.414z">
+              </path>
+            </svg>
+          </button>
+          <p class="brcYmT">|</p>
+          <div class="hnKJAx bPlPXf">
+            <div></div>
+            <div aria-hidden="true" class="langu">
+              <input type="text" tabindex="0" style="font-size: 16px;">
+              <label for="lan">
+                <select name="lan" size="3" tabindex="-1" id="lan">
+                  <!-- <option></option> -->
+                  <option value="en">en</option>
+                  <option value="zh-Hans">zh-Hans</option>
+                  <option value="zh-Hant">zh-Hant</option>
+                </select>
+              </label>
+            </div>
+            <button type="button" aria-label="Select locale" id="react-aria9441215196-88"
+              aria-labelledby="react-aria9441215196-88 react-aria9441215196-92" aria-haspopup="listbox"
+              aria-expanded="false" class="jrmoWU">
+              <span id="react-aria9441215196-92">English</span>
+              <img src="assests/img/light.svg">
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- nav-mobile -->
+    <nav class="bORUbm bEJICU btiHyD" aria-level="Main menu" id="mb">
+      <div class="cZBiMf gmStv">
+        <div class="hQRBGt">
+          <button data-testid="btn-undefined" class="kqsUWp" onclick="m_open()">
+            <svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor" aria-label="menu icon" width="24" height="24" viewBox="0 0 24 24" role="img">
+              <path d="M3 18H21V19.5H3zM3 13.5H21V15H3zM3 9H21V10.5H3zM3 4.5H21V6H3z"></path>
+            </svg>
+          </button>
+          <a class="jGQTNt" href="https://curve.fi/#/ethereum/swap">
+            <img src="assests/img/favicon-32x32.png" class="kJWqbA">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70.6 18.4" xml:space="preserve"
+              class="curve-logo-link__StyledCurveLogoText-sc-az4whn-0 iSSAxc main">
+              <path class="curve-logo-text_svg__curve-logo-letter"
+                d="M6 18.2c-.8 0-1.6-.1-2.3-.4-.6-.2-1.2-.6-1.7-1.1-.5-.5-.8-1-1.1-1.7-.3-.7-.4-1.4-.4-2.2V5.3c0-.7.1-1.5.4-2.2.3-.6.7-1.2 1.1-1.7.5-.4 1.1-.8 1.7-1C4.4.1 5.1 0 6 0c1.5 0 2.8.4 3.7 1.3.9.8 1.5 2 1.7 3.5H9.2c-.1-.9-.4-1.6-1-2.1S6.9 2 6 2c-1 0-1.8.3-2.4.9-.5.5-.8 1.4-.8 2.4v7.6c0 1 .3 1.8.8 2.4.6.6 1.4.9 2.4.9.9 0 1.6-.2 2.2-.8.6-.5.9-1.2 1-2.1h2.2c-.2 1.5-.7 2.7-1.7 3.5-.9 1-2.2 1.4-3.7 1.4zM17.6 4.4v8.8c0 2 1 3.1 2.9 3.1 2 0 3-1 3-3.1V4.4h2.2v8.8c0 1.6-.4 2.8-1.3 3.7-.9.9-2.2 1.3-3.8 1.3-1.6 0-2.9-.4-3.8-1.3-.9-.9-1.3-2.1-1.3-3.7V4.4h2.1zm15.2 0v2.3h.2c.2-.8.7-1.4 1.3-1.9.7-.5 1.5-.7 2.5-.7 1.4 0 2.5.4 3.4 1.3.8.9 1.2 2.1 1.2 3.7v.9h-2.2v-.5c0-1.1-.3-1.9-.8-2.5-.5-.6-1.3-.9-2.3-.9-1 0-1.7.3-2.3.9-.6.6-.9 1.4-.9 2.4v8.5h-2.2V4.4h2.1zm11.1 0h2.3l3.3 9.6c.1.3.2.7.3 1 .1.3.1.5.1.7 0 .2 0 .4.1.6h.2v-.6l.1-.7c.1-.3.2-.7.3-1l3.1-9.6h2.4l-4.8 13.5h-2.5L43.9 4.4zm17 1.2c-1 .9-1.4 2.2-1.4 3.8V13c0 1.6.5 2.9 1.4 3.8s2.3 1.4 4 1.4c1.4 0 2.5-.3 3.5-.9s1.6-1.4 1.9-2.4H68c-.3.4-.7.8-1.2 1-.5.2-1.2.3-1.9.3-1 0-1.8-.3-2.3-.9-.6-.6-.8-1.4-.8-2.4v-1.1h8.6V9.3c0-1.6-.5-2.9-1.4-3.8-1-.9-2.3-1.4-4-1.4-1.9.1-3.2.5-4.1 1.5zM68 9.3v.7h-6.4v-.7c0-1 .3-1.8.8-2.4.6-.6 1.3-.8 2.4-.8 1 0 1.8.3 2.4.8.5.6.8 1.4.8 2.4z">
+              </path>
+            </svg>
+          </a>
+        </div>
+        <div class="fYexMw"></div>
+        <div class="cSxNkf">
+          <div class="hnKJAx hphidk">
+            <div></div>
+            <!-- <div aria-hidden="true"
+              style="border: 0px; clip: rect(0px, 0px, 0px, 0px); clip-path: inset(50%); height: 1px; margin: 0px -1px -1px 0px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;">
+              <input type="text" tabindex="0" style="font-size: 16px;">
+              <label>
+                <select name="post" id="post">
+                  <option value="ARIBITRUM">ARIBITRUM</option>
+                  <option value="AURORA">AURORA</option>
+                  <option value="AVALANCHE">AVALANCHE</option>
+                  <option value="BASE">BASE</option>
+                  <option value="CELO">CELO</option>
+                  <option value="ETHEREUM" selected>ETHEREUM</option>
+                  <option value="FANTOM">FANTOM</option>
+                  <option value="GNOSIS">GNOSIS</option>
+                  <option value="KAVA">KAVA</option>
+                  <option value="MOONBEAM">MOONBEAM</option>
+                  <option value="OPTIMISM">OPTIMISM</option>
+                  <option value="POLYGON">POLYGON</option>
+                </select>
+              </label>
+            </div> -->
+            <!-- <button type="button" aria-label="Select Network" id="post"
+              aria-labelledby="react-aria9538445511-239 react-aria9538445511-243" aria-haspopup="listbox"
+              aria-expanded="false" class="jrmoWU">
+              <span id="react-aria9538445511-243">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-label="Ethereum" width="18"
+                  height="18">
+                  <g fill="none" fill-rule="evenodd">
+                    <circle cx="16" cy="16" r="16" fill="#627EEA"></circle>
+                    <g fill="#FFF" fill-rule="nonzero">
+                      <path fill-opacity="0.602" d="M16.498 4v8.87l7.497 3.35z"></path>
+                      <path d="M16.498 4 9 16.22l7.498-3.35z"></path>
+                      <path fill-opacity="0.602" d="M16.498 21.968v6.027L24 17.616z"></path>
+                      <path d="M16.498 27.995v-6.028L9 17.616z"></path>
+                      <path fill-opacity="0.2" d="m16.498 20.573 7.497-4.353-7.497-3.348z"></path>
+                      <path fill-opacity="0.602" d="m9 16.22 7.498 4.353v-7.701z"></path>
+                    </g>
+                  </g>
+                </svg>
+                <span class="bDxSyE">Ethereum</span></span>
+              <svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor" aria-hidden="true" aria-label="show icon" width="16" height="16" viewBox="0 0 32 32"
+                role="img" class="select-icon">
+                <path d="M24 12L16 22 8 12z"></path>
+              </svg>
+            </button> -->
+            <select name="post" id="post" style="padding: 10px; border: 0px; font-weight: var(--font-weight--bold);">
+              <option value="ARIBITRUM">ARIBITRUM</option>
+              <option value="AURORA">AURORA</option>
+              <option value="AVALANCHE">AVALANCHE</option>
+              <option value="BASE">BASE</option>
+              <option value="CELO">CELO</option>
+              <option value="ETHEREUM" selected>ETHEREUM</option>
+              <option value="FANTOM">FANTOM</option>
+              <option value="GNOSIS">GNOSIS</option>
+              <option value="KAVA">KAVA</option>
+              <option value="MOONBEAM">MOONBEAM</option>
+              <option value="OPTIMISM">OPTIMISM</option>
+              <option value="POLYGON">POLYGON</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!--navbar end-->
+
+    <!--header start-->
+
+    <nav aria-label="Main menu" class="bORUbm gGIZEV btiHyD" id="hd">
+      <div class="cZBiMf gmStv">
+        <div class="cTGUDU cXuSsJ">
+          <a class="jGQTNt" href="https://curve.fi/#/ethereum/swap">
+            <img src="assests/img/favicon-32x32.png" class="kJWqbA">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70.6 18.4" xml:space="preserve" class="iSSAxc">
+              <path class="curve-logo-text_svg__curve-logo-letter"
+                d="M6 18.2c-.8 0-1.6-.1-2.3-.4-.6-.2-1.2-.6-1.7-1.1-.5-.5-.8-1-1.1-1.7-.3-.7-.4-1.4-.4-2.2V5.3c0-.7.1-1.5.4-2.2.3-.6.7-1.2 1.1-1.7.5-.4 1.1-.8 1.7-1C4.4.1 5.1 0 6 0c1.5 0 2.8.4 3.7 1.3.9.8 1.5 2 1.7 3.5H9.2c-.1-.9-.4-1.6-1-2.1S6.9 2 6 2c-1 0-1.8.3-2.4.9-.5.5-.8 1.4-.8 2.4v7.6c0 1 .3 1.8.8 2.4.6.6 1.4.9 2.4.9.9 0 1.6-.2 2.2-.8.6-.5.9-1.2 1-2.1h2.2c-.2 1.5-.7 2.7-1.7 3.5-.9 1-2.2 1.4-3.7 1.4zM17.6 4.4v8.8c0 2 1 3.1 2.9 3.1 2 0 3-1 3-3.1V4.4h2.2v8.8c0 1.6-.4 2.8-1.3 3.7-.9.9-2.2 1.3-3.8 1.3-1.6 0-2.9-.4-3.8-1.3-.9-.9-1.3-2.1-1.3-3.7V4.4h2.1zm15.2 0v2.3h.2c.2-.8.7-1.4 1.3-1.9.7-.5 1.5-.7 2.5-.7 1.4 0 2.5.4 3.4 1.3.8.9 1.2 2.1 1.2 3.7v.9h-2.2v-.5c0-1.1-.3-1.9-.8-2.5-.5-.6-1.3-.9-2.3-.9-1 0-1.7.3-2.3.9-.6.6-.9 1.4-.9 2.4v8.5h-2.2V4.4h2.1zm11.1 0h2.3l3.3 9.6c.1.3.2.7.3 1 .1.3.1.5.1.7 0 .2 0 .4.1.6h.2v-.6l.1-.7c.1-.3.2-.7.3-1l3.1-9.6h2.4l-4.8 13.5h-2.5L43.9 4.4zm17 1.2c-1 .9-1.4 2.2-1.4 3.8V13c0 1.6.5 2.9 1.4 3.8s2.3 1.4 4 1.4c1.4 0 2.5-.3 3.5-.9s1.6-1.4 1.9-2.4H68c-.3.4-.7.8-1.2 1-.5.2-1.2.3-1.9.3-1 0-1.8-.3-2.3-.9-.6-.6-.8-1.4-.8-2.4v-1.1h8.6V9.3c0-1.6-.5-2.9-1.4-3.8-1-.9-2.3-1.4-4-1.4-1.9.1-3.2.5-4.1 1.5zM68 9.3v.7h-6.4v-.7c0-1 .3-1.8.8-2.4.6-.6 1.3-.8 2.4-.8 1 0 1.8.3 2.4.8.5.6.8 1.4.8 2.4z">
+              </path>
+            </svg></a>
+          <a class="cUyGAj active" href="#/ethereum/swap">Swap</a>
+          <a class="cUyGAj" href="#/ethereum/pools">Pools</a>
+          <a class="cUyGAj" href="#/ethereum/create-pool">Pool Creation</a>
+          <a class="cUyGAj" href="#/ethereum/dashboard">Dashboard</a>
+          <a class="cUyGAj" href="#/ethereum/integrations">Integrations</a>
+          <div class="eYtAKv"></div>
+          <a target="_blank" href="https://crvusd.curve.fi" class="ihGdWF bYCKA" rel="noreferrer noopener">crvUSD</a>
+        </div>
+
+        <div class="cTGUDU cXuSsJ">
+          <div class="hnKJAx hphidk">
+            <!-- <div></div>
+            <div aria-hidden="true" class="langu">
+              <input type="text" tabindex="0" style="font-size: 16px;">
+              <label>
+                <select size="12" tabindex="-1">
+                  <option value="42161">42161</option>
+                  <option value="1313161554">1313161554</option>
+                  <option value="43114">43114</option>
+                  <option value="8453">8453</option>
+                  <option value="42220">42220</option>
+                  <option value="1">1</option>
+                  <option value="250">250</option>
+                  <option value="100">100</option>
+                  <option value="2222">2222</option>
+                  <option value="1284">1284</option>
+                  <option value="10">10</option>
+                  <option value="137">137</option>
+                </select>
+              </label>
+            </div>
+            <button type="button" aria-label="Select Network" id="react-aria9441215196-95"
+              aria-labelledby="react-aria9441215196-95 react-aria9441215196-99" aria-haspopup="listbox"
+              aria-expanded="false" class="jrmoWU">
+              <span id="react-aria9441215196-99">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-label="Ethereum" width="18"
+                  height="18">
+                  <g fill="none" fill-rule="evenodd">
+                    <circle cx="16" cy="16" r="16" fill="#627EEA"></circle>
+                    <g fill="#FFF" fill-rule="nonzero">
+                      <path fill-opacity="0.602" d="M16.498 4v8.87l7.497 3.35z"></path>
+                      <path d="M16.498 4 9 16.22l7.498-3.35z"></path>
+                      <path fill-opacity="0.602" d="M16.498 21.968v6.027L24 17.616z"></path>
+                      <path d="M16.498 27.995v-6.028L9 17.616z"></path>
+                      <path fill-opacity="0.2" d="m16.498 20.573 7.497-4.353-7.497-3.348z"></path>
+                      <path fill-opacity="0.602" d="m9 16.22 7.498 4.353v-7.701z"></path>
+                    </g>
+                  </g>
+                </svg>
+                <span class="bDxSyE">Ethereum</span>
+              </span>
+              <svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor" aria-hidden="true" aria-label="show icon" width="16" height="16" viewBox="0 0 32 32"
+                role="img" class="select-icon">
+                <path d="M24 12L16 22 8 12z"></path>
+              </svg>
+            </button> -->
+            <select name="post" id="post" style="padding: 10px; border: 0px; font-weight: var(--font-weight--bold);">
+              <option value="ARIBITRUM">ARIBITRUM</option>
+              <option value="AURORA">AURORA</option>
+              <option value="AVALANCHE">AVALANCHE</option>
+              <option value="BASE">BASE</option>
+              <option value="CELO">CELO</option>
+              <option value="ETHEREUM" selected>ETHEREUM</option>
+              <option value="FANTOM">FANTOM</option>
+              <option value="GNOSIS">GNOSIS</option>
+              <option value="KAVA">KAVA</option>
+              <option value="MOONBEAM">MOONBEAM</option>
+              <option value="OPTIMISM">OPTIMISM</option>
+              <option value="POLYGON">POLYGON</option>
+            </select>
+          </div>
+          <button data-testid="btn-navigation-connect-wallet" class="FKztH iIOvje" onclick="w_open()">Connect
+            Wallet</button>
+        </div>
+      </div>
+    </nav>
+
+    <!--header end-->
+
+    <div class="kMHLwR"></div>
+
+    <!--main start-->
+
+    <main class="jqZHll">
+      <div class="kBzTPM jRdGvF">
+        <header class="hrodTD">
+          <button hidden="" data-testid="btn-hidden" class="iFVMhw">
+          </button>
+          Swap
+          <button type="button" data-testid="btn-open-modal-advance-settings" class="jYpLzj">
+            <img src="assests/img/setting.svg">
+          </button>
+        </header>
+        <div class="jzITHE">
+          <div class="dSebvj">
+            <div>
+              <div class="kqAYOa iJzyFr">
+                <div class="hzllAV">
+                  <input type="number" data-testid="inp-from-amount" id="inpFromAmount" name="inpFromAmount"
+                    class="ddaPrP" value="">
+                </div>
+                <div class="cJqQkC">
+                  <button data-testid="btn-undefined" class="gIflsH ktjyMe">MAX</button>
+                </div>
+                <button type="button" data-testid="btn-from-token" class="hNobRB loSWnL">
+                  <div class="gPtMqv">
+                    <img class="jivOjm sm" alt="USDT" src="assests/img/usdt.png" loading="lazy">
+                  </div>
+                  <div class="hzllAV eLROyW">
+                    <span data-testid="label-from-token" class="izMwaN">USDT</span>
+                    <span class="hsQhmF">0xda...1ec7</span>
+                  </div>
+                </button>
+              </div>
+              <span class="geXRyG eoFeNo">≈ $-</span>
+              <div class="bLfYYa">
+                <button data-testid="btn-swap-tokens" class="dgrrwh">
+                  <img src="assests/img/direction.svg">
+                </button>
+              </div>
+            </div>
+            <div>
+              <div class="gRCusN iJzyFr">
+                <div class="hzllAV">
+                  <input type="number" data-testid="inp-to-amount" id="inpTo" name="inpTo" class="ddaPrP" value="">
+                </div>
+                <button type="button" data-testid="btn-to-token" class="hNobRB loSWnL">
+                  <div class="gPtMqv">
+                    <img class="jivOjm sm" alt="ETH" src="assests/img/ethereum.png" loading="lazy">
+                  </div>
+                  <div class="hzllAV eLROyW">
+                    <span data-testid="label-to-token" class="izMwaN">ETH</span>
+                  </div>
+                </button>
+              </div>
+              <span class="geXRyG eoFeNo">≈ $-</span>
+            </div>
+          </div>
+          <div>
+            <div class="kBwurc bmsVcn eldkaf width--full ">
+              <span class="dqkDBp">Exchange rate <span class="geXRyG">(incl.fees):</span></span>
+              <div class="hTsVZG">-</div>
+            </div>
+            <div class="kBwurc bmsVcn width--full ">
+              <span class="dqkDBp">Price impact:</span>
+              <div class="hTsVZG">%<span type="button" aria-expanded="false">
+                  <img src="assests/img/tooltip.svg"></span>
+              </div>
+            </div>
+            <div class="beWXRP joVeeh">
+              <strong class="cBEWmu OQiqH">Trade routed through:</strong>
+              <div class="gsorlp dxjVll">-</div>
+            </div>
+            <div class="kBwurc bmsVcn fBLUAC width--full ">
+              <span class="dqkDBp">Slippage tolerance:</span>
+              <div class="hTsVZG">
+                <button type="button" data-testid="btn-open-modal-slippage-tolerance" class="jYpLzj kKIJhA ">0.1%&nbsp;
+                  <img src="assests/img/setting1.svg"></button>
+              </div>
+            </div>
+          </div>
+          <button data-testid="btn-swap-connect-wallet" class="bWwxNz" onclick="w_open()">Connect Wallet</button>
+        </div>
+      </div>
+    </main>
+
+    <!--main end-->
+
+    <!--footer start-->
+
+    <footer class="EQyyq">
+      <div class="drhWrC fcfEoh">
+        <div>
+          <div class="lmdbWr">
+            <img src="assests/img/curve.png" alt="Curve" class="fcGZJQ">
+          </div>
+          <div class="bvJpBx">
+            <img src="assests/img/img.png" alt="Llama" class="ePhSMh">
+            <a target="_blank" href="https://twitter.com/CurveFinance" class="bLfEdx jJEtDK" rel="noreferrer noopener">
+              <svg viewBox="0 0 13 11" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M10.851 3.136c.008.104.008.207.008.31 0 3.149-2.494 6.777-7.053 6.777A7.214 7.214 0 0 1 0 9.153c.2.023.391.03.599.03a5.094 5.094 0 0 0 3.077-1.018c-1.09-.022-2.003-.708-2.318-1.651.154.022.307.036.468.036.223 0 .446-.029.653-.08C1.343 6.247.49 5.29.49 4.131v-.03c.33.177.714.288 1.12.303A2.357 2.357 0 0 1 .507 2.42c0-.442.123-.848.338-1.202C2.064 2.664 3.9 3.61 5.955 3.712a2.587 2.587 0 0 1-.061-.546c0-1.313 1.105-2.382 2.479-2.382a2.52 2.52 0 0 1 1.81.752 5.004 5.004 0 0 0 1.574-.575 2.395 2.395 0 0 1-1.09 1.313 5.13 5.13 0 0 0 1.428-.369 5.22 5.22 0 0 1-1.244 1.231Z">
+                </path>
+              </svg>
+            </a>
+            <a target="_blank" href="https://t.me/curvefi" class="bLfEdx jJEtDK" rel="noreferrer noopener">
+              <svg viewBox="0 0 12 11" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="m11.823 1.646-1.79 8.08c-.134.571-.487.713-.987.444L6.32 8.246 5.005 9.458c-.146.14-.268.256-.548.256l.196-2.659 5.052-4.372c.22-.188-.047-.292-.341-.104L3.117 6.345.428 5.54c-.585-.175-.595-.56.122-.829L11.068.83c.487-.175.914.104.755.816Z">
+                </path>
+              </svg>
+            </a>
+            <a target="_blank" href="https://github.com/curvefi/curve-contract" class="bLfEdx jJEtDK"
+              rel="noreferrer noopener">
+              <svg viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path clip-rule="evenodd"
+                  d="M.8 5.574C.8 2.637 3.129.407 6.173.407c3.045 0 5.514 2.23 5.514 5.167a5.275 5.275 0 0 1-3.683 5.06c-.279.05-.38-.118-.38-.255 0-.058 0-.192.002-.373.002-.366.005-.92.005-1.398 0-.497-.172-.815-.374-.982 1.227-.134 2.52-.297 2.52-2.34 0-.58-.215-.873-.566-1.247.057-.138.244-.703-.057-1.438-.459-.14-1.515.572-1.515.572a5.334 5.334 0 0 0-2.756 0s-1.056-.71-1.515-.572c-.3.733-.114 1.3-.057 1.438-.351.372-.518.665-.518 1.247 0 2.037 1.238 2.208 2.465 2.34-.158.14-.3.375-.351.713-.314.14-1.12.375-1.6-.442-.301-.504-.848-.547-.848-.547-.537-.006-.035.327-.035.327.36.158.61.775.61.775.323.948 1.86.63 1.86.63 0 .289.002.694.004.98l.002.32c0 .138-.099.306-.38.257C2.332 9.932.8 7.922.8 5.574ZM3.853 8.66c-.066-.013-.11-.061-.094-.104.015-.042.079-.063.136-.048.066.019.107.067.094.11-.013.042-.079.063-.136.042Zm.474.068c.064 0 .114-.034.114-.076 0-.049-.057-.083-.123-.077-.063 0-.114.034-.114.077 0 .048.05.082.123.076Zm.402-.208c-.064.015-.108.055-.101.104.007.043.064.07.13.055.063-.015.107-.055.1-.097-.006-.04-.065-.068-.13-.062Zm-1.796-.81c-.028.02-.021.07.016.11.035.033.085.048.114.02.029-.02.022-.07-.015-.11-.035-.033-.086-.048-.115-.02Zm-.186-.09c-.044-.02-.066-.055-.05-.082.015-.021.05-.028.094-.015.044.021.066.055.05.083-.015.03-.059.036-.094.014Zm.66.672c-.035.027-.021.09.03.131.05.049.113.055.142.021.028-.027.015-.09-.029-.131-.048-.049-.114-.055-.142-.021Zm-.25-.187c-.035-.048-.035-.103 0-.125.035-.027.093-.006.123.043.035.049.035.104 0 .131-.028.021-.087 0-.123-.049Z">
+                </path>
+              </svg>
+            </a>
+            <a target="_blank" href="https://discord.gg/9uEHakc" class="bLfEdx jJEtDK" rel="noreferrer noopener">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path
+                  d="M14.82 4.26a10.14 10.14 0 0 0-.53 1.1 14.66 14.66 0 0 0-4.58 0 10.14 10.14 0 0 0-.53-1.1 16 16 0 0 0-4.13 1.3 17.33 17.33 0 0 0-3 11.59 16.6 16.6 0 0 0 5.07 2.59A12.89 12.89 0 0 0 8.23 18a9.65 9.65 0 0 1-1.71-.83 3.39 3.39 0 0 0 .42-.33 11.66 11.66 0 0 0 10.12 0q.21.18.42.33a10.84 10.84 0 0 1-1.71.84 12.41 12.41 0 0 0 1.08 1.78 16.44 16.44 0 0 0 5.06-2.59 17.22 17.22 0 0 0-3-11.59 16.09 16.09 0 0 0-4.09-1.35zM8.68 14.81a1.94 1.94 0 0 1-1.8-2 1.93 1.93 0 0 1 1.8-2 1.93 1.93 0 0 1 1.8 2 1.93 1.93 0 0 1-1.8 2zm6.64 0a1.94 1.94 0 0 1-1.8-2 1.93 1.93 0 0 1 1.8-2 1.92 1.92 0 0 1 1.8 2 1.92 1.92 0 0 1-1.8 2z">
+                </path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="beWXRP foKPrA">
+          <article class="gfnSJH">
+            <header class="dchRSV">Community</header>
+            <ul class="eokKjz">
+              <li class="gLTjtX">
+                <a target="_blank" href="https://twitter.com/curvefinance" class="ihGdWF glCcrg"
+                  rel="noreferrer noopener">Twitter</a>
+              </li>
+              <li class="gLTjtX"><a target="_blank" href="https://t.me/curvefi" class="ihGdWF glCcrg"
+                  rel="noreferrer noopener">Telegram</a>
+              </li>
+              <li class="gLTjtX"><a target="_blank" href="https://discord.gg/rgrfS7W" class="ihGdWF glCcrg"
+                  rel="noreferrer noopener">Discord</a>
+              </li>
+              <li class="gLTjtX"><a target="_blank" href="https://www.youtube.com/c/CurveFinance" class="ihGdWF glCcrg"
+                  rel="noreferrer noopener">YouTube</a>
+              </li>
+              <li class="gLTjtX"><a target="_blank" href="https://dune.com/mrblock_buidl/Curve.fi" class="ihGdWF glCcrg"
+                  rel="noreferrer noopener">Dune Analytics</a>
+              </li>
+              <li class="gLTjtX"><a target="_blank" href="https://curvemonitor.com" class="ihGdWF glCcrg"
+                  rel="noreferrer noopener">Curve Monitor</a>
+              </li>
+            </ul>
+          </article>
+          <article class="gfnSJH">
+            <header class="dchRSV">Resources</header>
+            <ul class="fCbilD">
+              <li class="gLTjtX">
+                <a target="_blank" href="https://classic.curve.fi/whitepaper" class="ihGdWF glCcrg"
+                  rel="noreferrer noopener">Whitepaper</a>
+              </li>
+              <li class="gLTjtX">
+                <a target="_blank" href="https://classic.curve.fi/audits" class="ihGdWF glCcrg"
+                  rel="noreferrer noopener">Audits</a>
+              </li>
+              <li class="gLTjtX">
+                <a target="_blank"
+                  href="https://classic.curve.fi/events/compound_usdt_iearn_busd_susdv2_pax_tbtc_ren_sbtc_hbtc_3pool_gusd_husd_usdk_usdn_linkusd_musd_rsv_dusd_pbtc_bbtc_obtc_ust_eurs_seth_aave_steth/Exchange"
+                  class="ihGdWF glCcrg" rel="noreferrer noopener">Events</a>
+              </li>
+              <li class="gLTjtX">
+                <a target="_blank" href="https://classic.curve.fi/contracts" class="ihGdWF glCcrg"
+                  rel="noreferrer noopener">Contracts</a>
+              </li>
+              <li class="gLTjtX">
+                <a target="_blank" href="https://classic.curve.fi/bugbounty" class="ihGdWF glCcrg"
+                  rel="noreferrer noopener">Bug Bounty</a>
+              </li>
+              <li class="gLTjtX">
+                <a target="_blank" href="https://classic.curve.fi/rootfaq" class="ihGdWF glCcrg"
+                  rel="noreferrer noopener">FAQ</a>
+              </li>
+              <li class="gLTjtX">
+                <a class="fOVghM govmvd glCcrg" href="https://curve.fi/#/integrations">Integrations</a>
+              </li>
+              <li class="gLTjtX">
+                <a target="_blank" href="https://classic.curve.fi/donate" class="ihGdWF glCcrg"
+                  rel="noreferrer noopener">Donate</a>
+              </li>
+              <li class="gLTjtX">
+                <a target="_blank" href="https://classic.curve.fi/devdocs" class="ihGdWF glCcrg"
+                  rel="noreferrer noopener">Developer Docs</a>
+              </li>
+              <li class="gLTjtX">
+                <a target="_blank" href="https://news.curve.fi/" class="ihGdWF glCcrg"
+                  rel="noreferrer noopener">News</a>
+              </li>
+              <li class="gLTjtX">
+                <a target="_blank" href="https://resources.curve.fi/" class="ihGdWF glCcrg"
+                  rel="noreferrer noopener">Resources</a>
+              </li>
+              <li class="gLTjtX">
+                <a target="_blank" href="https://github.com/curvefi/curve-contract" class="ihGdWF glCcrg"
+                  rel="noreferrer noopener">Github</a>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </footer>
+
+    <!--footer end-->
+
+  </div>
+
+  <!--menubar start-->
+  <div data-overlay-container="true" id="menu" class="menubar">
+    <div class="gwdesR">
+      <span data-focus-scope-start="true" hidden=""></span>
+      <section width="300" class="iZGyEb">
+        <header class="cIypLE">
+          <a class="jGQTNt" href="https://curve.fi/#/ethereum/swap">
+            <img src="assests/img/favicon-32x32.png" class="kJWqbA">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70.6 18.4" xml:space="preserve"
+              class="curve-logo-link__StyledCurveLogoText-sc-az4whn-0 iSSAxc">
+              <path class="curve-logo-text_svg__curve-logo-letter"
+                d="M6 18.2c-.8 0-1.6-.1-2.3-.4-.6-.2-1.2-.6-1.7-1.1-.5-.5-.8-1-1.1-1.7-.3-.7-.4-1.4-.4-2.2V5.3c0-.7.1-1.5.4-2.2.3-.6.7-1.2 1.1-1.7.5-.4 1.1-.8 1.7-1C4.4.1 5.1 0 6 0c1.5 0 2.8.4 3.7 1.3.9.8 1.5 2 1.7 3.5H9.2c-.1-.9-.4-1.6-1-2.1S6.9 2 6 2c-1 0-1.8.3-2.4.9-.5.5-.8 1.4-.8 2.4v7.6c0 1 .3 1.8.8 2.4.6.6 1.4.9 2.4.9.9 0 1.6-.2 2.2-.8.6-.5.9-1.2 1-2.1h2.2c-.2 1.5-.7 2.7-1.7 3.5-.9 1-2.2 1.4-3.7 1.4zM17.6 4.4v8.8c0 2 1 3.1 2.9 3.1 2 0 3-1 3-3.1V4.4h2.2v8.8c0 1.6-.4 2.8-1.3 3.7-.9.9-2.2 1.3-3.8 1.3-1.6 0-2.9-.4-3.8-1.3-.9-.9-1.3-2.1-1.3-3.7V4.4h2.1zm15.2 0v2.3h.2c.2-.8.7-1.4 1.3-1.9.7-.5 1.5-.7 2.5-.7 1.4 0 2.5.4 3.4 1.3.8.9 1.2 2.1 1.2 3.7v.9h-2.2v-.5c0-1.1-.3-1.9-.8-2.5-.5-.6-1.3-.9-2.3-.9-1 0-1.7.3-2.3.9-.6.6-.9 1.4-.9 2.4v8.5h-2.2V4.4h2.1zm11.1 0h2.3l3.3 9.6c.1.3.2.7.3 1 .1.3.1.5.1.7 0 .2 0 .4.1.6h.2v-.6l.1-.7c.1-.3.2-.7.3-1l3.1-9.6h2.4l-4.8 13.5h-2.5L43.9 4.4zm17 1.2c-1 .9-1.4 2.2-1.4 3.8V13c0 1.6.5 2.9 1.4 3.8s2.3 1.4 4 1.4c1.4 0 2.5-.3 3.5-.9s1.6-1.4 1.9-2.4H68c-.3.4-.7.8-1.2 1-.5.2-1.2.3-1.9.3-1 0-1.8-.3-2.3-.9-.6-.6-.8-1.4-.8-2.4v-1.1h8.6V9.3c0-1.6-.5-2.9-1.4-3.8-1-.9-2.3-1.4-4-1.4-1.9.1-3.2.5-4.1 1.5zM68 9.3v.7h-6.4v-.7c0-1 .3-1.8.8-2.4.6-.6 1.3-.8 2.4-.8 1 0 1.8.3 2.4.8.5.6.8 1.4.8 2.4z">
+              </path>
+            </svg>
+          </a>
+          <button data-testid="btn-undefined" class="kqsUWp" onclick="m_close()" id="cl">
+            <svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor" aria-label="close icon" width="24" height="24" viewBox="0 0 32 32" role="img">
+              <path
+                d="M24 9.4L22.6 8 16 14.6 9.4 8 8 9.4 14.6 16 8 22.6 9.4 24 16 17.4 22.6 24 24 22.6 17.4 16 24 9.4z">
+              </path>
+            </svg>
+          </button>
+        </header>
+        <div class="fAmssA hNWubE mobile-menu">
+          <div class="islfdR">
+            <button data-testid="btn-undefined" class="hutyBX evMuAj">Swap</button>
+            <button data-testid="btn-undefined" class="hutyBX evMuAj">Pools</button>
+            <button data-testid="btn-undefined" class="hutyBX evMuAj">Pool Creation</button>
+            <button data-testid="btn-undefined" class="hutyBX evMuAj">Dashboard</button>
+            <button data-testid="btn-undefined" class="hutyBX evMuAj">Integrations</button>
+            <a target="_blank" href="https://crvusd.curve.fi" class="ihGdWFiqHeum" rel="noreferrer noopener">crvUSD</a>
+            <div class="kKHSea">
+              <button opacity="1" data-testid="btn-undefined" class="ggnzGg AZugT dXFRyL">
+                <span class="label">Mode</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-label="Light theme">
+                  <path
+                    d="M6.995 12c0 2.761 2.246 5.007 5.007 5.007s5.007-2.246 5.007-5.007-2.246-5.007-5.007-5.007S6.995 9.239 6.995 12zM11 19h2v3h-2zm0-17h2v3h-2zm-9 9h3v2H2zm17 0h3v2h-3zM5.637 19.778l-1.414-1.414 2.121-2.121 1.414 1.414zM16.242 6.344l2.122-2.122 1.414 1.414-2.122 2.122zM6.344 7.759 4.223 5.637l1.415-1.414 2.12 2.122zm13.434 10.605-1.414 1.414-2.122-2.122 1.414-1.414z">
+                  </path>
+                </svg>
+              </button>
+            </div>
+            <div>
+              <button data-testid="btn-undefined" class="kEwlLk kwcdE">English
+                <svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor" aria-label="show icon" width="16" height="16" viewBox="0 0 32 32" role="img">
+                  <path d="M24 12L16 22 8 12z"></path>
+                </svg>
+              </button>
+              <ul class="collapsed ">
+                <li>简体中文</li>
+                <li>繁體中文</li>
+              </ul>
+            </div>
+            <div class="cBEWmu">
+              <button data-testid="btn-undefined" class="kEwlLk evMuAj">More
+                <svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor" aria-label="show icon" width="16" height="16" viewBox="0 0 32 32" role="img">
+                  <path d="M24 12L16 22 8 12z"></path>
+                </svg>
+              </button>
+              <div class="iuRdln dVtcvd collapsed">
+                <a target="_blank" href="https://classic.curve.fi" class="ihGdWF iqHeum"
+                  rel="noreferrer noopener">Classic UI</a>
+                <a target="_blank" href="https://dao.curve.fi/" class="ihGdWF iqHeum" rel="noreferrer noopener">DAO</a>
+                <a target="_blank" href="https://gov.curve.fi/" class="ihGdWF iqHeum"
+                  rel="noreferrer noopener">Governance</a>
+                <div>
+                  <button data-testid="btn-undefined" class="kEwlLk evMuAj">Community
+                    <svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor" aria-label="show icon" width="16" height="16" viewBox="0 0 32 32" role="img">
+                      <path d="M24 12L16 22 8 12z"></path>
+                    </svg>
+                  </button>
+                  <ul class="eokKjz jQQkyL collapsed">
+                    <li class="gLTjtX">
+                      <a target="_blank" href="https://twitter.com/curvefinance" class="ihGdWF glCcrg"
+                        rel="noreferrer noopener">Twitter</a>
+                    </li>
+                    <li class="gLTjtX">
+                      <a target="_blank" href="https://t.me/curvefi" class="ihGdWF glCcrg"
+                        rel="noreferrer noopener">Telegram</a>
+                    </li>
+                    <li class="gLTjtX">
+                      <a target="_blank" href="https://discord.gg/rgrfS7W" class="ihGdWF glCcrg"
+                        rel="noreferrer noopener">Discord</a>
+                    </li>
+                    <li class="gLTjtX">
+                      <a target="_blank" href="https://www.youtube.com/c/CurveFinance" class="ihGdWF glCcrg"
+                        rel="noreferrer noopener">YouTube</a>
+                    </li>
+                    <li class="gLTjtX">
+                      <a target="_blank" href="https://dune.com/mrblock_buidl/Curve.fi" class="ihGdWF glCcrg"
+                        rel="noreferrer noopener">Dune Analytics</a>
+                    </li>
+                    <li class="gLTjtX">
+                      <a target="_blank" href="https://curvemonitor.com" class="ihGdWF glCcrg"
+                        rel="noreferrer noopener">Curve
+                        Monitor</a>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <button data-testid="btn-undefined" class="kEwlLk evMuAj">Resources
+                    <svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor" aria-label="show icon" width="16" height="16" viewBox="0 0 32 32" role="img">
+                      <path d="M24 12L16 22 8 12z"></path>
+                    </svg>
+                  </button>
+                  <ul class="fCbilD iTNkhG collapsed">
+                    <li class="gLTjtX">
+                      <a target="_blank" href="https://classic.curve.fi/whitepaper" class=" ihGdWF glCcrg"
+                        rel="noreferrer noopener">Whitepaper</a>
+                    </li>
+                    <li class="gLTjtX">
+                      <a target="_blank" href="https://classic.curve.fi/audits" class=" ihGdWF glCcrg"
+                        rel="noreferrer noopener">Audits</a>
+                    </li>
+                    <li class="gLTjtX">
+                      <a target="_blank"
+                        href="https://classic.curve.fi/events/compound_usdt_iearn_busd_susdv2_pax_tbtc_ren_sbtc_hbtc_3pool_gusd_husd_usdk_usdn_linkusd_musd_rsv_dusd_pbtc_bbtc_obtc_ust_eurs_seth_aave_steth/Exchange"
+                        class=" ihGdWF glCcrg" rel="noreferrer noopener">Events</a>
+                    </li>
+                    <li class="gLTjtX">
+                      <a target="_blank" href="https://classic.curve.fi/contracts" class="ihGdWF glCcrg"
+                        rel="noreferrer noopener">Contracts</a>
+                    </li>
+                    <li class="gLTjtX">
+                      <a target="_blank" href="https://classic.curve.fi/bugbounty" class="ihGdWF glCcrg"
+                        rel="noreferrer noopener">Bug
+                        Bounty</a>
+                    </li>
+                    <li class="gLTjtX">
+                      <a target="_blank" href="https://classic.curve.fi/rootfaq" class="ihGdWF glCcrg"
+                        rel="noreferrer noopener">FAQ</a>
+                    </li>
+                    <li class="gLTjtX">
+                      <a class="InternalLink__StyledLink-sc-1nqjsw0-0 fOVghM footer__StyledInternalLink-sc-mpv6on-13 govmvd"
+                        href="https://curve.fi/#/integrations">Integrations</a>
+                    </li>
+                    <li class="gLTjtX">
+                      <a target="_blank" href="https://classic.curve.fi/donate" class="ihGdWF glCcrg"
+                        rel="noreferrer noopener">Donate</a>
+                    </li>
+                    <li class="gLTjtX">
+                      <a target="_blank" href="https://classic.curve.fi/devdocs" class="ihGdWF glCcrg"
+                        rel="noreferrer noopener">Developer Docs</a>
+                    </li>
+                    <li class="gLTjtX">
+                      <a target="_blank" href="https://news.curve.fi/" class="ihGdWF glCcrg"
+                        rel="noreferrer noopener">News</a>
+                    </li>
+                    <li class="gLTjtX">
+                      <a target="_blank" href="https://resources.curve.fi/" class="ihGdWF glCcrg"
+                        rel="noreferrer noopener">Resources</a>
+                    </li>
+                    <li class="gLTjtX">
+                      <a target="_blank" href="https://github.com/curvefi/curve-contract" class="ihGdWF glCcrg"
+                        rel="noreferrer noopener">Github</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hzllAV fSDkXS">
+            <span class="ewtfrw">Total Deposits</span>
+            <span class="jraZZk">$1,658,237,342</span>
+          </div>
+          <div class="hzllAV">
+            <span class="HeaderStats__Title-sc-1pmbkvt-0 ewtfrw">Daily Volume</span>
+            <span class="jraZZk">$99,354,068</span>
+          </div>
+          <div class="hzllAV">
+            <span class="HeaderStats__Title-sc-1pmbkvt-0 ewtfrw">Crypto Volume Share</span>
+            <span class="jraZZk">19.64%</span>
+          </div>
+          <img src="assests/img/img.png" alt="Llama" width="32" height="40">
+        </div>
+        <div class="fYexMw"></div>
+        <div class="fdqUtH">
+          <button data-testid="btn-navigation-connect-wallet" class="FKztH iIOvje gGsbeI" onclick="w_open()">Connect
+            Wallet</button>
+        </div>
+      </section><span data-focus-scope-end="true" hidden=""></span>
+    </div>
+  </div>
+
+  <!-- connect wallet -->
+
+  <section class="svelte-baitaa fixed" id="wallet">
+    <div class="background flex items-center justify-center relative svelte-baitaa full-screen-background">
+      <div class="modal-container-mobile modal-position flex svelte-baitaa absolute">
+        <div class="flex relative max-height svelte-baitaa">
+          <div class="modal-overflow modal-styling relative flex justify-center svelte-baitaa">
+            <div class="modal relative svelte-baitaa">
+              <div class="container svelte-b3j15j">
+                <div class="sidebar svelte-obaru3">
+                  <div class="inner-container svelte-obaru3">
+                    <div class="icon-container svelte-obaru3">
+                      <img src="assests/img/logo-square.svg" alt="logo" class="svelte-obaru3">
+                    </div>
+                    <div class="subheading svelte-obaru3">Connect your wallet</div>
+                    <div class="description svelte-obaru3">Connecting your wallet is like “logging in” to Web3. Select
+                      your wallet from the options to get started.</div>
+                    <a href="https://ethereum.org/en/wallets/find-wallet/#main-content" target="_blank"
+                      rel="noreferrer noopener" class="no-link svelte-obaru3">I don't have a wallet <div
+                        class="info-icon svelte-obaru3">
+                        <svg width="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM13 17H11V11H13V17ZM13 9H11V7H13V9Z"
+                            fill="currentColor"></path>
+                        </svg>
+                      </div></a>
+                  </div>
+                  <div class="indicators flex items-center svelte-obaru3">
+                    <div class="indicator relative svelte-obaru3 on"></div>
+                    <div class="join relative svelte-obaru3" style="right: 2px; width: 82px;"></div>
+                    <div class="indicator relative svelte-obaru3" style="right: 4px;"></div>
+                    <div class="join relative svelte-obaru3" style="right: 6px; width: 81px;"></div>
+                    <div style="right: 8px;" class="indicator relative svelte-obaru3"></div>
+                  </div>
+                  <div>
+                    <svg width="152" height="16" viewBox="0 0 152 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M4.03641 6.252C3.23241 6.252 2.41641 6.636 2.04441 7.272V6.396H1.00041V14.724H2.04441V11.124C2.41641 11.784 3.20841 12.144 4.04841 12.144C5.58441 12.144 6.84441 10.98 6.84441 9.204C6.84441 7.44 5.57241 6.252 4.03641 6.252ZM3.94041 11.16C3.02841 11.16 2.04441 10.428 2.04441 9.216C2.04441 8.016 2.94441 7.236 3.94041 7.236C4.97241 7.236 5.78841 8.1 5.78841 9.216C5.78841 10.344 4.97241 11.16 3.94041 11.16ZM10.8452 12.144C12.4412 12.144 13.7852 10.968 13.7852 9.192C13.7852 7.416 12.4412 6.252 10.8452 6.252C9.24919 6.252 7.91719 7.416 7.91719 9.192C7.91719 10.968 9.24919 12.144 10.8452 12.144ZM10.8452 11.16C9.82519 11.16 8.97319 10.356 8.97319 9.192C8.97319 8.04 9.82519 7.236 10.8452 7.236C11.8772 7.236 12.7412 8.04 12.7412 9.192C12.7412 10.356 11.8772 11.16 10.8452 11.16ZM22.2729 6.396L20.8449 10.38L19.4049 6.396H18.3849L16.9569 10.38L15.5289 6.396H14.4009L16.5369 12H17.4009L18.8889 7.836L20.4369 12H21.3129L23.4009 6.396H22.2729ZM29.6948 9.18C29.6948 7.404 28.5068 6.252 26.9108 6.252C25.3148 6.252 24.0308 7.404 24.0308 9.18C24.0308 10.956 25.3148 12.144 26.9108 12.144C27.9908 12.144 28.9988 11.616 29.4788 10.644L28.5788 10.284C28.2548 10.848 27.6308 11.16 26.9468 11.16C25.9868 11.16 25.2668 10.644 25.1108 9.648H29.6708C29.6828 9.492 29.6948 9.336 29.6948 9.18ZM25.1228 8.748C25.2908 7.74 25.9628 7.236 26.9108 7.236C27.8348 7.236 28.5188 7.788 28.6508 8.748H25.1228ZM33.7456 6.252C33.0016 6.252 32.4616 6.684 32.1736 7.668V6.396H31.1176V12H32.1736V9.948C32.1736 8.472 32.6176 7.26 33.7336 7.26C33.9496 7.26 34.2496 7.308 34.5496 7.452L34.7176 6.468C34.5496 6.36 34.1416 6.252 33.7456 6.252ZM40.8627 9.18C40.8627 7.404 39.6747 6.252 38.0787 6.252C36.4827 6.252 35.1987 7.404 35.1987 9.18C35.1987 10.956 36.4827 12.144 38.0787 12.144C39.1587 12.144 40.1667 11.616 40.6467 10.644L39.7467 10.284C39.4227 10.848 38.7987 11.16 38.1147 11.16C37.1547 11.16 36.4347 10.644 36.2787 9.648H40.8387C40.8507 9.492 40.8627 9.336 40.8627 9.18ZM36.2907 8.748C36.4587 7.74 37.1307 7.236 38.0787 7.236C39.0027 7.236 39.6867 7.788 39.8187 8.748H36.2907ZM46.7136 3.348V7.272C46.3416 6.612 45.5496 6.252 44.7096 6.252C43.1736 6.252 41.9136 7.416 41.9136 9.192C41.9136 10.956 43.1856 12.144 44.7216 12.144C45.5256 12.144 46.3416 11.76 46.7136 11.124V12H47.7576V3.348H46.7136ZM44.8056 11.16C43.7856 11.16 42.9696 10.296 42.9696 9.18C42.9696 8.052 43.7856 7.236 44.8056 7.236C45.7296 7.236 46.7136 7.968 46.7136 9.18C46.7136 10.38 45.8136 11.16 44.8056 11.16ZM55.6695 6.252C54.8295 6.252 54.0375 6.612 53.6655 7.272V3.348H52.6215V12H53.6655V11.124C54.0375 11.76 54.8535 12.144 55.6575 12.144C57.1935 12.144 58.4655 10.956 58.4655 9.192C58.4655 7.416 57.2055 6.252 55.6695 6.252ZM55.5615 11.16C54.5655 11.16 53.6655 10.38 53.6655 9.18C53.6655 7.968 54.6495 7.236 55.5615 7.236C56.5935 7.236 57.4095 8.052 57.4095 9.18C57.4095 10.296 56.5935 11.16 55.5615 11.16ZM63.6097 6.396L61.8937 10.524L60.2017 6.396H59.0737L61.3297 11.832L60.1537 14.724H61.2577L64.7377 6.396H63.6097Z"
+                        fill="var(--w3o-text-color, #707481)"></path>
+                      <g clip-path="url(#clip0_13558_103869)">
+                        <path d="M143.502 11.0888L141.863 8.24889H145.142L146.782 11.0888H143.502Z" fill="currentColor">
+                        </path>
+                        <path d="M145.142 8.24887H141.863L143.502 5.40895H146.782L145.142 8.24887Z"
+                          fill="url(#paint0_linear_13558_103869)"></path>
+                        <path
+                          d="M148.421 8.24888L146.782 5.40896H143.502L141.863 2.56903H148.421L151.701 8.24888H148.421Z"
+                          fill="currentColor"></path>
+                        <path
+                          d="M148.421 13.9287H141.863L143.502 11.0888H146.782L148.421 8.24889H151.701L148.421 13.9287Z"
+                          fill="url(#paint1_linear_13558_103869)"></path>
+                        <path
+                          d="M76.4774 8.89232C76.4774 10.9327 74.9716 12.5077 73.1366 12.5077C72.1369 12.5077 71.4106 12.1378 70.9181 11.508V12.316H69.1513V2.71994L70.9181 2.17606V6.27771C71.4106 5.64894 72.1369 5.27797 73.1366 5.27797C74.9716 5.27797 76.4774 6.85198 76.4774 8.89232ZM74.7106 8.89232C74.7106 7.73959 73.9037 6.96201 72.8076 6.96201C71.7114 6.96201 70.9213 7.74273 70.9213 8.89232C70.9213 10.0419 71.7292 10.8237 72.8076 10.8237C73.8859 10.8237 74.7106 10.043 74.7106 8.89232Z"
+                          fill="currentColor"></path>
+                        <path d="M77.2718 2.71994L79.0376 2.17606V12.316H77.2718V2.71994Z" fill="currentColor"></path>
+                        <path
+                          d="M79.8183 8.89232C79.8171 8.17544 80.0286 7.47431 80.4261 6.87774C80.8236 6.28117 81.3893 5.816 82.0514 5.54113C82.7135 5.26627 83.4422 5.19408 84.1454 5.33371C84.8485 5.47333 85.4944 5.8185 86.0013 6.32549C86.5081 6.83247 86.8531 7.47847 86.9925 8.18166C87.1319 8.88486 87.0595 9.61361 86.7845 10.2756C86.5094 10.9376 86.0441 11.5031 85.4474 11.9005C84.8507 12.2978 84.1495 12.5092 83.4326 12.5077C82.9565 12.5128 82.4842 12.4227 82.0433 12.2428C81.6024 12.0629 81.2019 11.7967 80.8653 11.46C80.5286 11.1232 80.2626 10.7227 80.0828 10.2817C79.903 9.84083 79.8131 9.36845 79.8183 8.89232ZM85.2948 8.89232C85.2948 7.78359 84.4869 7.00602 83.4326 7.00602C82.3784 7.00602 81.5841 7.78674 81.5841 8.89232C81.5841 9.9979 82.392 10.7786 83.4326 10.7786C84.4733 10.7786 85.2948 10.0021 85.2948 8.89232Z"
+                          fill="currentColor"></path>
+                        <path
+                          d="M87.7313 8.89233C87.7313 6.85198 89.2645 5.27797 91.3457 5.27797C92.6881 5.27797 93.8513 5.98952 94.413 7.04375L92.8935 7.93451C92.6189 7.37281 92.03 7.01651 91.3321 7.01651C90.2778 7.01651 89.4971 7.79723 89.4971 8.89233C89.4971 9.98743 90.2778 10.7545 91.3321 10.7545C92.0447 10.7545 92.6326 10.4129 92.904 9.8512L94.4371 10.7273C94.1281 11.2741 93.6779 11.7279 93.1335 12.0413C92.5891 12.3547 91.9706 12.5161 91.3425 12.5088C89.2645 12.5077 87.7313 10.9327 87.7313 8.89233Z"
+                          fill="currentColor"></path>
+                        <path
+                          d="M99.5123 12.316L97.0203 9.20776V12.316H95.2534V2.71994L97.0203 2.17606V8.48153L99.374 5.46974H101.482L98.7316 8.85145L101.566 12.316H99.5123Z"
+                          fill="currentColor"></path>
+                        <path
+                          d="M108.623 8.11161V12.316H106.856V8.33377C106.856 7.40215 106.296 6.92324 105.501 6.92324C104.639 6.92324 103.994 7.4294 103.994 8.62091V12.316H102.229V5.46974H103.994V6.23579C104.405 5.6196 105.118 5.27797 106.035 5.27797C107.486 5.27797 108.623 6.29657 108.623 8.11161Z"
+                          fill="currentColor"></path>
+                        <path
+                          d="M116.74 5.46974V12.316H114.975V11.508C114.481 12.1242 113.742 12.5077 112.743 12.5077C110.921 12.5077 109.415 10.9358 109.415 8.89233C109.415 6.84884 110.921 5.27797 112.743 5.27797C113.742 5.27797 114.481 5.66152 114.975 6.27771V5.46974H116.74ZM114.975 8.89233C114.975 7.73959 114.167 6.96201 113.071 6.96201C111.974 6.96201 111.184 7.74273 111.184 8.89233C111.184 10.0419 111.992 10.8237 113.071 10.8237C114.149 10.8237 114.975 10.043 114.975 8.89233Z"
+                          fill="currentColor"></path>
+                        <path
+                          d="M121.344 7.16742V5.46975H119.796V3.45665L118.027 4.00053V10.0157C118.027 11.8643 118.866 12.5895 121.342 12.3212V10.7137C120.329 10.7692 119.794 10.7545 119.794 10.0157V7.16742H121.344Z"
+                          fill="currentColor"></path>
+                        <path d="M122.582 5.46974H124.347V12.316H122.582V5.46974Z" fill="currentColor"></path>
+                        <path
+                          d="M132.293 5.46974L129.691 12.316H127.678L125.077 5.46974H127.021L128.678 10.262L130.348 5.46974H132.293Z"
+                          fill="currentColor"></path>
+                        <path
+                          d="M136.073 10.9075C136.757 10.9075 137.305 10.6204 137.607 10.2232L139.03 11.0448C138.387 11.9754 137.36 12.5119 136.046 12.5119C133.74 12.5119 132.294 10.94 132.294 8.89652C132.294 6.85303 133.761 5.28217 135.908 5.28217C137.935 5.28217 139.373 6.88447 139.373 8.89652C139.37 9.13886 139.346 9.38049 139.301 9.61856H134.143C134.389 10.5219 135.142 10.9075 136.073 10.9075ZM137.607 8.25099C137.387 7.26487 136.648 6.8677 135.908 6.8677C134.965 6.8677 134.321 7.37491 134.114 8.25099H137.607Z"
+                          fill="currentColor"></path>
+                      </g>
+                      <defs>
+                        <linearGradient id="paint0_linear_13558_103869" x1="141.863" y1="6.82891" x2="146.782"
+                          y2="6.82891" gradientUnits="userSpaceOnUse">
+                          <stop stop-color="#55CCFE"></stop>
+                          <stop offset="1" stop-color="#5E93EF"></stop>
+                        </linearGradient>
+                        <linearGradient id="paint1_linear_13558_103869" x1="6973.93" y1="500.862" x2="7897.53"
+                          y2="500.862" gradientUnits="userSpaceOnUse">
+                          <stop stop-color="#55CCFE"></stop>
+                          <stop offset="1" stop-color="#5E93EF"></stop>
+                        </linearGradient>
+                        <clipPath id="clip0_13558_103869">
+                          <rect width="82.8232" height="12" fill="white" transform="translate(69.0884 2)"></rect>
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </div>
+                </div>
+                <div class="content flex flex-column svelte-b3j15j">
+                  <div class="header relative flex items-center svelte-b3j15j">
+                    <div class="header-heading svelte-b3j15j">Available Wallets (13)</div>
+                  </div>
+                  <div class="button-container absolute svelte-b3j15j" onclick="w_close()">
+                    <div class="close-button svelte-1ubf722">
+                      <div class="svg-box svelte-1ubf722">
+                        <svg width="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41Z"
+                            fill="currentColor"></path>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="scroll-container svelte-b3j15j">
+                    <div class="svelte-b3j15j">
+                      <div class="outer-container">
+                        <div class="wallets-container svelte-kpc6js">
+                          <div class="wallet-button-container svelte-1vlog3j"><button
+                              class="wallet-button-styling svelte-1vlog3j">
+                              <div class="wallet-button-container-inner svelte-1vlog3j">
+                                <div class="relative svelte-i129jl border-custom background-transparent"
+                                  style="padding: 8.333333333333334px; width: 48px; height: 48px; border-radius: 12px; color: black;">
+                                  <div class="icon flex justify-center items-center svelte-i129jl">
+                                    <svg height="100%" viewBox="0 0 300 300" fill="none"
+                                      xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                      <rect width="300" height="300" fill="url(#pattern0)"></rect>
+                                      <defs>
+                                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1"
+                                          height="1">
+                                          <use xlink:href="#image0" transform="scale(0.00333333)"></use>
+                                        </pattern>
+                                        <image id="image0" width="300" height="300"
+                                          xlink:href="data:image/png;base64,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">
+                                        </image>
+                                      </defs>
+                                    </svg>
+                                  </div>
+                                </div>
+                                <div class="name svelte-1vlog3j">Binance Smart Wallet</div>
+                              </div>
+                            </button></div>
+                          <div class="wallet-button-container svelte-1vlog3j"><button
+                              class="wallet-button-styling svelte-1vlog3j">
+                              <div class="wallet-button-container-inner svelte-1vlog3j">
+                                <div class="relative svelte-i129jl border-custom background-transparent"
+                                  style="padding: 8.333333333333334px; width: 48px; height: 48px; border-radius: 12px; color: black;">
+                                  <div class="icon flex justify-center items-center svelte-i129jl">
+                                    <svg width="100%" height="100%" viewBox="0 0 222 256" fill="none"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="M111 0L0 64V192L111 256L222 192V64L111 0ZM111 0L0 64V192L111 256L222 192V64L111 0Z"
+                                        fill="white"></path>
+                                      <path
+                                        d="M154.822 206H139.028L120.12 188.667V179.778L139.695 161.111V131.556L165.277 114.889L194.417 136.889L154.822 206ZM89.4228 159.333L92.3146 131.556L82.7495 106.667H139.251L129.908 131.556L132.577 159.333H110.778H89.4228ZM102.325 188.667L83.4168 206.222H67.4008L27.5832 136.889L56.9459 115.111L82.7495 131.556V161.111L102.325 179.778V188.667ZM67.1784 55.3334H154.599L165.054 99.7778H56.9459L67.1784 55.3334ZM111 0L0 64V192L111 256L222 192V64L111 0Z"
+                                        fill="#03316C"></path>
+                                    </svg>
+                                  </div>
+                                </div>
+                                <div class="name svelte-1vlog3j">DeFi Wallet</div>
+                              </div>
+                            </button></div>
+                          <div class="wallet-button-container svelte-1vlog3j"><button
+                              class="wallet-button-styling svelte-1vlog3j">
+                              <div class="wallet-button-container-inner svelte-1vlog3j">
+                                <div class="relative svelte-i129jl border-custom background-transparent"
+                                  style="padding: 8.333333333333334px; width: 48px; height: 48px; border-radius: 12px; color: black;">
+                                  <div class="icon flex justify-center items-center svelte-i129jl">
+                                    <svg width="100%" height="100%" viewBox="0 0 40 40"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m1.36250526 6.825c-1.36250526 2.675-1.36250526 6.175-1.36250526 13.175s0 10.5 1.36250526 13.1750526c1.2 2.35 3.11249474 4.2624211 5.46249474 5.4624211 2.675 1.3625263 6.175 1.3625263 13.175 1.3625263s10.5 0 13.1750526-1.3625263c2.35-1.2 4.2624211-3.1124211 5.4624211-5.4624211 1.3625263-2.6750526 1.3625263-6.1750526 1.3625263-13.1750526s0-10.5-1.3625263-13.175c-1.2-2.35-3.1124211-4.26249474-5.4624211-5.46249474-2.6750526-1.36250526-6.1750526-1.36250526-13.1750526-1.36250526s-10.5 0-13.175 1.36250526c-2.35 1.2-4.26249474 3.11249474-5.46249474 5.46249474zm28.61875794 3.9624737c.35 0 .6812631.1437895.9250526.3875789.2436842.25.3812631.5874737.3751557.9311579-.0626294 3.7250527-.2064189 6.5750527-.4751557 8.8312632-.2625263 2.2563158-.6563158 3.9312631-1.25 5.2875789-.4.9062106-.8937895 1.6562106-1.4750526 2.2936842-.7812632.8437895-1.6749474 1.4563158-2.65 2.037579-.4168421.2492631-.8502106.4953684-1.3048421.7535789-.97.5508421-2.0365264 1.1565264-3.2451579 1.9651579-.4374737.2936842-1.0062106.2936842-1.4436843 0-1.2271578-.8181052-2.3077894-1.4312631-3.2866315-1.9865263-.2176842-.1234737-.4303158-.2441052-.6384211-.3634737-1.1436842-.6625263-2.1749474-1.2937894-3.0749474-2.2063158-.6-.6-1.1187368-1.3312631-1.5312631-2.2-.5625158-1.1625263-.94376843-2.5687368-1.22501054-4.3874736-.37501052-2.4312632-.56250526-5.6125264-.63146616-10.0250527-.0060391-.3436842.12521353-.6811579.3689609-.9311579.24374737-.2437894.5812526-.3875789.9312526-.3875789h.5375263c1.6562106.0063158 5.3124211-.1562105 8.4749474-2.61871581.4687369-.36250526 1.1250526-.36250526 1.5937895 0 3.1625263 2.46250531 6.8187368 2.62503161 8.4812631 2.61871581zm-2.9062106 14.6063158c.4062106-.837579.7437895-1.9937895 1-3.6563158.3062106-1.9874737.4937895-4.6874737.5812632-8.3624211-1.95-.0563158-5.3-.4312631-8.4937895-2.5812631-3.1936842 2.1436842-6.5436842 2.5187368-8.4874737 2.5812631.0687369 3.0374737.2062106 5.4.4249474 7.2562106.25 2.1125263.6063158 3.5437894 1.05 4.55.2937895.6687368.6188421 1.15 1.0063158 1.5749473.5187368.5688421 1.1749474 1.037579 2.0687368 1.5750527.3707369.222421.7794737.4537894 1.2244211.7056842.7927368.4486315 1.7003158.9623158 2.7130526 1.6068421.9941053-.634 1.8886316-1.1424211 2.6721053-1.5877895.2362105-.1342105.4622105-.2627368.6778947-.3872632 1.1-.6312631 1.9125263-1.1562105 2.5187369-1.7687368.4063157-.4187368.7375789-.8749474 1.0437894-1.5062105z"
+                                        fill="#3375bb" fill-rule="evenodd"></path>
+                                    </svg>
+                                  </div>
+                                </div>
+                                <div class="name svelte-1vlog3j">Trust Wallet</div>
+                              </div>
+                            </button></div>
+                          <div class="wallet-button-container svelte-1vlog3j"><button
+                              class="wallet-button-styling svelte-1vlog3j">
+                              <div class="wallet-button-container-inner svelte-1vlog3j">
+                                <div class="relative svelte-i129jl border-custom background-transparent"
+                                  style="padding: 8.333333333333334px; width: 48px; height: 48px; border-radius: 12px; color: black;">
+                                  <div class="icon flex justify-center items-center svelte-i129jl">
+                                    <svg height="100%" viewBox="0 0 114 166" version="1.1"
+                                      xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                      <g id="Styles" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <path
+                                          d="M17,51.453125 L17,40 C17,17.90861 34.90861,-1.0658141e-14 57,-1.0658141e-14 C79.09139,-1.0658141e-14 97,17.90861 97,40 L97,51.453125 L113.736328,51.453125 L113.736328,139.193359 L57.5,166 L0,139.193359 L0,51.453125 L17,51.453125 Z M37,51.453125 L77,51.453125 L77,40 L76.9678398,40 C76.3750564,29.406335 67.6617997,21 57,21 C46.3382003,21 37.6249436,29.406335 37.0321602,40 L37,40 L37,51.453125 Z M23,72 L23,125 L56.8681641,140.966797 L91,125 L91,72 L23,72 Z"
+                                          id="Trezor-logo" fill="var(--w3o-text-color, currentColor)"></path>
+                                      </g>
+                                    </svg>
+                                  </div>
+                                </div>
+                                <div class="name svelte-1vlog3j">Trezor</div>
+                              </div>
+                            </button></div>
+                          <div class="wallet-button-container svelte-1vlog3j"><button
+                              class="wallet-button-styling svelte-1vlog3j">
+                              <div class="wallet-button-container-inner svelte-1vlog3j">
+                                <div class="relative svelte-i129jl border-custom background-transparent"
+                                  style="padding: 8.333333333333334px; width: 48px; height: 48px; border-radius: 12px; color: black;">
+                                  <div class="icon flex justify-center items-center svelte-i129jl">
+                                    <svg width="160" height="160" viewBox="0 0 160 160" fill="none"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <rect width="160" height="160" rx="16" fill="#00000D"></rect>
+                                      <path
+                                        d="M93.1482 119.207V125H135V98.8769H128.902V119.207H93.1482ZM93.1482 33V38.792H128.902V59.1231H135V33H93.1482ZM74.0104 59.1231H67.9125V98.8769H95.4153V93.6539H74.0104V59.1231ZM26 98.8769V125H67.8518V119.207H32.0979V98.8769H26ZM26 33V59.1231H32.0979V38.792H67.8518V33H26Z"
+                                        fill="white"></path>
+                                    </svg>
+                                  </div>
+                                </div>
+                                <div class="name svelte-1vlog3j">Ledger</div>
+                              </div>
+                            </button></div>
+                          <div class="wallet-button-container svelte-1vlog3j"><button
+                              class="wallet-button-styling svelte-1vlog3j">
+                              <div class="wallet-button-container-inner svelte-1vlog3j">
+                                <div class="relative svelte-i129jl border-custom background-transparent"
+                                  style="padding: 8.333333333333334px; width: 48px; height: 48px; border-radius: 12px; color: black;">
+                                  <div class="icon flex justify-center items-center svelte-i129jl">
+                                    <svg width="100%" height="100%" viewBox="0 0 40 40" fill="none"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="M20 40C31.0457 40 40 31.0457 40 20C40 8.9543 31.0457 0 20 0C8.9543 0 0 8.9543 0 20C0 31.0457 8.9543 40 20 40Z"
+                                        fill="#1652F0"></path>
+                                      <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M5.45508 20.0006C5.45508 28.0338 11.9673 34.546 20.0006 34.546C28.0338 34.546 34.546 28.0338 34.546 20.0006C34.546 11.9673 28.0338 5.45508 20.0006 5.45508C11.9673 5.45508 5.45508 11.9673 5.45508 20.0006ZM17.3137 15.3145C16.2091 15.3145 15.3137 16.2099 15.3137 17.3145V22.6882C15.3137 23.7928 16.2091 24.6882 17.3137 24.6882H22.6874C23.792 24.6882 24.6874 23.7928 24.6874 22.6882V17.3145C24.6874 16.2099 23.792 15.3145 22.6874 15.3145H17.3137Z"
+                                        fill="white"></path>
+                                    </svg>
+                                  </div>
+                                </div>
+                                <div class="name svelte-1vlog3j">Coinbase Wallet</div>
+                              </div>
+                            </button></div>
+                          <div class="wallet-button-container svelte-1vlog3j"><button
+                              class="wallet-button-styling svelte-1vlog3j">
+                              <div class="wallet-button-container-inner svelte-1vlog3j">
+                                <div class="relative svelte-i129jl border-custom background-transparent"
+                                  style="padding: 8.333333333333334px; width: 48px; height: 48px; border-radius: 12px; color: black;">
+                                  <div class="icon flex justify-center items-center svelte-i129jl">
+                                    <svg height="100%" viewBox="0 0 40 40" width="100%"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m2744.99995 1155h9.99997 10.00008v9.98139h-10.00008-9.99997-9.99998v9.9814.64001 9.28323.05815 9.9234h-9.99997v-9.9234-.05815-9.28323-.64001-9.9814-9.98139h9.99997zm9.99961 29.88552h-9.94167v-9.92324h19.93595v10.27235c0 2.55359-1.01622 5.00299-2.82437 6.80909-1.80867 1.8061-4.26182 2.82181-6.82018 2.82335h-.34973z"
+                                        fill="#617bff" fill-rule="evenodd" transform="translate(-2725 -1155)"></path>
+                                    </svg>
+                                  </div>
+                                </div>
+                                <div class="name svelte-1vlog3j">Fortmatic</div>
+                              </div>
+                            </button></div>
+                          <div class="wallet-button-container svelte-1vlog3j"><button
+                              class="wallet-button-styling svelte-1vlog3j">
+                              <div class="wallet-button-container-inner svelte-1vlog3j">
+                                <div class="relative svelte-i129jl border-custom background-transparent"
+                                  style="padding: 8.333333333333334px; width: 48px; height: 48px; border-radius: 12px; color: black;">
+                                  <div class="icon flex justify-center items-center svelte-i129jl">
+                                    <svg viewBox="0 0 40 25" width="100%" xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                        d="m8.19180572 4.83416816c6.52149658-6.38508884 17.09493158-6.38508884 23.61642788 0l.7848727.76845565c.3260748.31925442.3260748.83686816 0 1.15612272l-2.6848927 2.62873374c-.1630375.15962734-.4273733.15962734-.5904108 0l-1.0800779-1.05748639c-4.5495589-4.45439756-11.9258514-4.45439756-16.4754105 0l-1.1566741 1.13248068c-.1630376.15962721-.4273735.15962721-.5904108 0l-2.68489263-2.62873375c-.32607483-.31925456-.32607483-.83686829 0-1.15612272zm29.16903948 5.43649934 2.3895596 2.3395862c.3260732.319253.3260751.8368636.0000041 1.1561187l-10.7746894 10.5494845c-.3260726.3192568-.8547443.3192604-1.1808214.0000083-.0000013-.0000013-.0000029-.0000029-.0000042-.0000043l-7.6472191-7.4872762c-.0815187-.0798136-.2136867-.0798136-.2952053 0-.0000006.0000005-.000001.000001-.0000015.0000014l-7.6470562 7.4872708c-.3260715.3192576-.8547434.319263-1.1808215.0000116-.0000019-.0000018-.0000039-.0000037-.0000059-.0000058l-10.7749893-10.5496247c-.32607469-.3192544-.32607469-.8368682 0-1.1561226l2.38956395-2.3395823c.3260747-.31925446.85474652-.31925446 1.18082136 0l7.64733029 7.4873809c.0815188.0798136.2136866.0798136.2952054 0 .0000012-.0000012.0000023-.0000023.0000035-.0000032l7.6469471-7.4873777c.3260673-.31926181.8547392-.31927378 1.1808214-.0000267.0000046.0000045.0000091.000009.0000135.0000135l7.6473203 7.4873909c.0815186.0798135.2136866.0798135.2952053 0l7.6471967-7.4872433c.3260748-.31925458.8547465-.31925458 1.1808213 0z"
+                                        fill="#3b99fc"></path>
+                                    </svg>
+                                  </div>
+                                </div>
+                                <div class="name svelte-1vlog3j">WalletConnect</div>
+                              </div>
+                            </button></div>
+                          <div class="wallet-button-container svelte-1vlog3j"><button
+                              class="wallet-button-styling svelte-1vlog3j">
+                              <div class="wallet-button-container-inner svelte-1vlog3j">
+                                <div class="relative svelte-i129jl border-custom background-transparent"
+                                  style="padding: 8.333333333333334px; width: 48px; height: 48px; border-radius: 12px; color: black;">
+                                  <div class="icon flex justify-center items-center svelte-i129jl">
+                                    <svg height="100%" viewBox="0 0 26 40" width="26"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <g fill="none">
+                                        <path
+                                          d="m.38447675 22.9277905.93812327-.4094678 11.54391448-5.0174216 12.4724258 5.4268894-4.6829268 9.6753574-11.46701915 1.6205695-8.60843446-9.3004926z"
+                                          fill="#133444"></path>
+                                        <path
+                                          d="m22.7456446 16.9549441c-2.0594671-2.4810138-4.9778453-4.095319-8.1739757-4.5214466l-.2037727-.0269133c-.9972573-.1211147-2.0055061-.1211147-3.0027634 0l-.2056951.024991c-3.19683486.4253443-6.11569177 2.0406007-8.17397573 4.5233689l-.51904361.861228-.86315031 1.4340982-.63054187 1.0496216c0 .024991-.02499099.0595939-.03460291.0845849v.0173014l1.38988346.8285474 8.84296527 5.2288838 1.7070768 1.0073291v-12.4954944l-1.7070768.7689535v-1.8647122l1.7070768-.7689535 1.7051544.7689535 8.6776402 3.9504986z"
+                                          fill="#c42370"></path>
+                                        <path
+                                          d="m25.7234381 26.0324402c-.0248538 4.0988643-1.872927 7.97397-5.0424337 10.5731107-1.2054271.9911619-2.5812108 1.7546176-4.0600744 2.2530337-1.2073828.3962299-2.4702232.5974018-3.7409588.5959469-7.11281993 0-12.8799712-6.3227281-12.8799712-13.4220913.00397806-1.0496754.13304725-2.0951358.38447675-3.1142617l12.47242585 7.3800313 12.4743482-7.3800313c.2623236 1.017244.3941046 2.0637403.3921873 3.1142617z"
+                                          fill="#1c4d6b"></path>
+                                        <path d="m11.3651328 12.4161961 1.5013817.6747567-1.7070768.7747206v-1.5436741z"
+                                          fill="#000"></path>
+                                        <path
+                                          d="m11.1594377 15.7438424 1.7070768-.7766431v12.4993392l-1.7070768-1.0073291z"
+                                          fill="#000"></path>
+                                        <path d="m12.8665145 14.9671993v12.4993392l11.9533822-7.0647603z"
+                                          fill="#1d4259"></path>
+                                        <path d="m12.8665145.56470023v14.40249907l11.9533822 5.4345789z" fill="#4b6b9a">
+                                        </path>
+                                        <path
+                                          d="m12.8665145 14.9671993v12.4954944l-1.7070768-1.007329-10.22900396-6.0535865h-.01730146.02499099c0-.024991.02691338-.0595939.03460291-.0845849l1.49369218-2.4837198 8.69301934-3.9408867v1.8589451z"
+                                          fill="#343535"></path>
+                                        <path
+                                          d="m12.8665145 14.9671993v12.4993392l-1.7070768-1.0073291-10.23861588-6.0478193-.00768954-.0096119.01730146-.0173014 10.22900396-4.6406344z"
+                                          fill="#3e5578"></path>
+                                        <path d="m12.8665145.56470023v14.40249907l-11.95338222 5.4345789z"
+                                          fill="#6db2d8"></path>
+                                        <g fill="#335f8a">
+                                          <path
+                                            d="m8.02787456 38.4298931c.18070408.0768953.35948577.1537907.53826746.2210741-.17878169-.0672834-.35756338-.1441788-.53826746-.2210741z">
+                                          </path>
+                                          <path
+                                            d="m8.56614202 38.6509672c.17878169.0692058.36717529.1384116.55364652.1922384-.18647123-.0538268-.37486483-.1153431-.55364652-.1922384z">
+                                          </path>
+                                          <path
+                                            d="m9.59077256 39.000841c.14417878.0442149.28066803.0768954.42484684.1114983-.13648928-.0346029-.28066806-.0768953-.42484684-.1114983z">
+                                          </path>
+                                        </g>
+                                        <path
+                                          d="m.38447675 22.9277905 12.47242585 7.3800312c-.1695149 1.1206915-.4701886 2.2175699-.8958309 3.2680524-1.0034843 2.4222035-3.01045293 4.9751291-6.91865911 3.0277544-3.17007392-2.5978633-5.0183503-6.4726906-5.04241259-10.5711883.00728258-1.0462943.13630945-2.0881863.38447675-3.1046497z"
+                                          fill="#6db2d8"></path>
+                                        <path
+                                          d="m20.6733149 36.6036285-.0346029.0269134c-.0672834.0499819-.1287997.1018863-.1922384.1537907l-.0173014.015379c-.0672835.0595939-.1441788.1114983-.2133846.1634027-.0758242.0613437-.1554406.1178457-.2383756.1691697-.0828404.0521651-.1624447.1093005-.2383756.1710922-.0768953.0595939-.1461012.0941968-.2133846.1461012l-.0442148.0249909c-.074973.0519044-.1518683.0941968-.2210742.1441788 0 0-.0173014 0-.0249909.0173015-.0768954.0519043-.1537907.0941968-.2306861.1461011-.0768953.0519044-.1710921.0941968-.255677.1441788s-.1710922.0941968-.2556771.1364893h-.0096119l-.255677.1268773c-.0845849.0422924-.1710922.0865073-.265289.1287997-.0941968.0422925-.1787817.0845849-.2633666.1191878-.1787816.0768954-.3594857.1537907-.5382674.2210741-.1787817.0672835-.3671753.1364893-.5536465.1922384-.0729076.0274308-.147369.0505395-.2229965.0692058l-.2460652.0768954c-.1461011.0422924-.2825904.0768953-.4267692.1114982-.0519043.0153791-.1114982.024991-.1634026.0422925l-.0922744.0173014-.2306861.049982c-.0768953.0173015-.1364892.0269134-.2133846.0422924-.0632285.0158437-.1274537.0274043-.1922383.034603-.0692058.0096119-.1461012.0269133-.2133846.0346029-.0346029 0-.0692058 0-.1018864.0173014l-.1634026.0173015h-.0845849c-.0590384.0105165-.1188222.016302-.1787817.0173014-.0738847.010539-.1483704.0163181-.2229965.0173015-.0595939 0-.1095758 0-.1710921 0s-.1018864.0096119-.1518683.0096119c-.0595939 0-.1191878 0-.1710922 0s-.1614802 0-.2383756 0h-.5113541c-.0800209.0050111-.160277.0050111-.2402979 0-.0595939 0-.1191878 0-.1787817 0-.0519044 0-.1018864-.0096119-.1537907-.0096119-.0519044 0-.1114983 0-.1710922 0-.0733428-.0095846-.1471332-.0153595-.2210741-.0173015-.0595939 0-.1191878 0-.1787817-.0173014h-.0865073c-.0532121-.0105119-.1072489-.0163015-.1614802-.0173015-.0345121-.0018508-.0686979-.0076559-.1018863-.0173014-.0718302-.0066855-.1431228-.0182465-.2133846-.0346029-.0692059 0-.1287997-.024991-.1922384-.034603-.0718469-.0101919-.1430817-.0243105-.2133846-.0422924-.0692058-.0173014-.1537907-.0326805-.2306861-.049982l-.0941968-.0173014c-.0593497-.0042617-.1184021-.0119642-.17685927-.0230686-.14610116-.0346029-.29027995-.0768954-.42676919-.1114983l-.25567704-.0768953c-.07689535-.024991-.1537907-.0422925-.22299652-.0692059-.19223837-.0595938-.3671753-.1268773-.55364652-.1922383-.18647122-.0653611-.3671753-.1441788-.53826745-.2210742-.08458489-.0422924-.17878169-.0768953-.26528896-.1191878l-.26336657-.1287997-.25567704-.1268773c-.08458489-.0422924-.16916977-.0941968-.25567704-.1364892-.08650727-.0422925-.17109216-.0941968-.25567704-.1441788-.08458489-.049982-.1537907-.0941968-.23068605-.1461012l-.02499099-.0173014c-.07756662-.0428621-.1520765-.0910366-.22299652-.1441788l-.04229244-.024991c-.06728343-.0422925-.14417878-.0941968-.2133846-.1461012-.06920581-.0519043-.16148023-.1095759-.23837558-.1710921-.07689535-.0615163-.16148024-.1095759-.23837559-.1691698l-.2133846-.1634026-.01730145-.0153791c-.06920582-.0519044-.12879971-.1038087-.19223838-.1537907l-.0346029-.0269134c3.89859425 1.9454524 5.92094194-.6132404 6.92058154-3.0200648.4259299-1.0505261.7272373-2.1473626.8977532-3.2680524.1691803 1.1238755.4698526 2.2239751.8958308 3.2776643 1.0111739 2.3779887 3.0258321 4.9386038 6.9244263 2.9912291z"
+                                          fill="#529bba"></path>
+                                        <path
+                                          d="m15.7077977 39.1123393c.1441788-.0346029.2902799-.0768953.4267692-.1114983-.1364893.034603-.2825904.0768954-.4267692.1114983z"
+                                          fill="#335f8a"></path>
+                                        <path
+                                          d="m16.611318 38.8489727c.1922384-.0595939.3671753-.1287997.5555689-.1922383-.180704.0711281-.3671753.1326444-.5555689.1922383z"
+                                          fill="#335f8a"></path>
+                                        <path
+                                          d="m17.1668869 38.6509672c.1787817-.0672834.3575634-.1441788.5363451-.2210741-.1787817.0768953-.3575634.1537907-.5363451.2210741z"
+                                          fill="#335f8a"></path>
+                                        <path
+                                          d="m25.723417 26.0324402c-.0248327 4.0988643-1.8729059 7.97397-5.0424126 10.5731107-3.8985942 1.9454523-5.9209419-.6151628-6.9205815-3.0200649-.4250714-1.0506755-.7257265-2.1474858-.8958308-3.2680524l12.4724258-7.3800312c.2564764 1.0116964.3862701 2.0513377.3863991 3.0950378z"
+                                          fill="#4b6b9a"></path>
+                                      </g>
+                                    </svg>
+                                  </div>
+                                </div>
+                                <div class="name svelte-1vlog3j">Portis</div>
+                              </div>
+                            </button></div>
+                          <div class="wallet-button-container svelte-1vlog3j"><button
+                              class="wallet-button-styling svelte-1vlog3j">
+                              <div class="wallet-button-container-inner svelte-1vlog3j">
+                                <div class="relative svelte-i129jl border-custom background-transparent"
+                                  style="padding: 8.333333333333334px; width: 48px; height: 48px; border-radius: 12px; color: black;">
+                                  <div class="icon flex justify-center items-center svelte-i129jl">
+                                    <svg width="100%" height="100%" viewBox="0 0 257 277" fill="none"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <rect width="153.889" height="82.0741" fill="#0364FF"></rect>
+                                      <rect x="71.8135" width="82.0741" height="277" fill="#0364FF"></rect>
+                                      <path
+                                        d="M215.443 82.0741C238.107 82.0741 256.48 63.7012 256.48 41.037C256.48 18.3729 238.107 0 215.443 0C192.779 0 174.406 18.3729 174.406 41.037C174.406 63.7012 192.779 82.0741 215.443 82.0741Z"
+                                        fill="#0364FF"></path>
+                                    </svg>
+                                  </div>
+                                </div>
+                                <div class="name svelte-1vlog3j">Torus</div>
+                              </div>
+                            </button></div>
+                          <div class="wallet-button-container svelte-1vlog3j"><button
+                              class="wallet-button-styling svelte-1vlog3j">
+                              <div class="wallet-button-container-inner svelte-1vlog3j">
+                                <div class="relative svelte-i129jl border-custom background-transparent"
+                                  style="padding: 8.333333333333334px; width: 48px; height: 48px; border-radius: 12px; color: black;">
+                                  <div class="icon flex justify-center items-center svelte-i129jl"><svg
+                                      xmlns="http://www.w3.org/2000/svg" width="108" height="108" viewBox="0 0 108 108"
+                                      fill="none">
+                                      <rect width="108" height="108" rx="26" fill="#AB9FF2"></rect>
+                                      <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M46.5267 69.9229C42.0054 76.8509 34.4292 85.6182 24.348 85.6182C19.5824 85.6182 15 83.6563 15 75.1342C15 53.4305 44.6326 19.8327 72.1268 19.8327C87.768 19.8327 94 30.6846 94 43.0079C94 58.8258 83.7355 76.9122 73.5321 76.9122C70.2939 76.9122 68.7053 75.1342 68.7053 72.314C68.7053 71.5783 68.8275 70.7812 69.0719 69.9229C65.5893 75.8699 58.8685 81.3878 52.5754 81.3878C47.993 81.3878 45.6713 78.5063 45.6713 74.4598C45.6713 72.9884 45.9768 71.4556 46.5267 69.9229ZM83.6761 42.5794C83.6761 46.1704 81.5575 47.9658 79.1875 47.9658C76.7816 47.9658 74.6989 46.1704 74.6989 42.5794C74.6989 38.9885 76.7816 37.1931 79.1875 37.1931C81.5575 37.1931 83.6761 38.9885 83.6761 42.5794ZM70.2103 42.5795C70.2103 46.1704 68.0916 47.9658 65.7216 47.9658C63.3157 47.9658 61.233 46.1704 61.233 42.5795C61.233 38.9885 63.3157 37.1931 65.7216 37.1931C68.0916 37.1931 70.2103 38.9885 70.2103 42.5795Z"
+                                        fill="#FFFDF8"></path>
+                                    </svg></div>
+                                </div>
+                                <div class="name svelte-1vlog3j">Phantom</div>
+                              </div>
+                            </button></div>
+                          <div class="wallet-button-container svelte-1vlog3j"><button
+                              class="wallet-button-styling svelte-1vlog3j">
+                              <div class="wallet-button-container-inner svelte-1vlog3j">
+                                <div class="relative svelte-i129jl border-custom background-transparent"
+                                  style="padding: 8.333333333333334px; width: 48px; height: 48px; border-radius: 12px; color: black;">
+                                  <div class="icon flex justify-center items-center svelte-i129jl">
+                                    <svg width="100%" height="100%" viewBox="0 0 540 540" fill="none"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <rect width="540" height="540" rx="150" fill="#CC703C"></rect>
+                                      <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M415 89L412.805 94.2931L405.58 111.228L400.784 122.148C364.367 203.998 336.036 242.844 305.923 242.844C288.568 242.844 278.298 238.3 265 227.634L261.162 224.468C251.595 216.451 247.566 214.48 238.363 214.48C233.566 214.48 224.983 220.06 214.122 233.084C202.859 246.589 190.508 266.541 177.234 292.821L175.998 295.28L305.191 295.286L289.105 325.584H168.462V450H133V89H415ZM364.731 119.309L168.46 119.298V239.609C191.976 202.58 214.322 183.989 238.363 183.989C257.054 183.989 268.067 188.766 281.962 199.885L285.926 203.152C294.858 210.636 298.3 212.353 305.923 212.353C314.352 212.353 336.674 180.192 364.731 119.309Z"
+                                        fill="white"></path>
+                                    </svg>
+                                  </div>
+                                </div>
+                                <div class="name svelte-1vlog3j">Frontier</div>
+                              </div>
+                            </button></div>
+                          <div class="wallet-button-container svelte-1vlog3j"><button
+                              class="wallet-button-styling svelte-1vlog3j">
+                              <div class="wallet-button-container-inner svelte-1vlog3j">
+                                <div class="relative svelte-i129jl border-custom background-transparent"
+                                  style="padding: 8.333333333333334px; width: 48px; height: 48px; border-radius: 12px; color: black;">
+                                  <div class="icon flex justify-center items-center svelte-i129jl">
+                                    <img src="assests/img/bitget.png" alt="logo" class="svelte-i129jl">
+                                  </div>
+                                </div>
+                                <div class="name svelte-1vlog3j">Bitget</div>
+                              </div>
+                            </button></div>
+                          <div class="notice-container svelte-kpc6js">
+                            <div class="container flex justify-between svelte-q2gson">
+                              <div>
+                                <div>Why don't I see my wallet?</div>
+                                <a class="link pointer"
+                                  href="https://www.blocknative.com/blog/metamask-wont-connect-web3-wallet-troubleshooting"
+                                  target="_blank" rel="noreferrer noopener">Click here to learn more</a>
+                              </div>
+                              <div class="icon svelte-q2gson">
+                                <svg width="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path
+                                    d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM13 17H11V11H13V17ZM13 9H11V7H13V9Z"
+                                    fill="currentColor"></path>
+                                </svg>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--connect wallet end -->
+</body>
+
+<script>
+  function m_open() {
+    document.getElementById("menu").style.display = "block";
+  }
+
+  function m_close() {
+    document.getElementById("menu").style.display = "none";
+  }
+
+  function w_open() {
+    document.getElementById("wallet").style.display = "block";
+    document.getElementById("menu").style.display = "none";
+  }
+
+  function w_close() {
+    document.getElementById("wallet").style.display = "none";
+  }
+
+</script>
+
+</html>
